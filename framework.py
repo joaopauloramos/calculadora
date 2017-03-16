@@ -55,7 +55,7 @@ class CalculadoraInfixa(Calculadora):
     def obter_inputs(self):
         p1 = input('Digite o primeiro o numero ')
         p1 = float(p1)
-        sinal = input('Digite o sinal da operacao: ')
+        sinal = input('Digite o sinal da operacao {}: '.format(' ; '.join(self._operacoes.keys())))
         p2 = input('Digite o primeiro o numero ')
         p2 = float(p2)
         return sinal, p1, p2
