@@ -2,6 +2,7 @@
 
 # Classes Abstratas
 
+
 class Operacao:
     """
         Classe responsavel por definir como calculo deve ser feito
